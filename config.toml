@@ -1,4 +1,4 @@
-baseURL = "http://example.org/" # Hostname (and path) to the root.
+baseURL = "https://snyssfx.github.io/" # Hostname (and path) to the root.
 languageCode = "en-us"
 title = "Gleb Zakharov"
 theme = "hugo-coder-portfolio"
