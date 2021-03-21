@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Gleb Zakharov</title>
-    <link>https://snyssfx.github.io/</link>
-    <description>Recent content on Gleb Zakharov</description>
+    <title>markdown on Gleb Zakharov</title>
+    <link>https://snyssfx.github.io/tags/markdown/</link>
+    <description>Recent content in markdown on Gleb Zakharov</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 20 Mar 2021 19:16:21 +0300</lastBuildDate><atom:link href="https://snyssfx.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 20 Mar 2021 19:16:21 +0300</lastBuildDate><atom:link href="https://snyssfx.github.io/tags/markdown/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>How to make a site like that</title>
       <link>https://snyssfx.github.io/posts/make_this_site/</link>
@@ -15,15 +15,6 @@
       <guid>https://snyssfx.github.io/posts/make_this_site/</guid>
       <description>This site was build with hugo, Github Actions, markdown pages and a drop of love. Here is a couple of links I used:
  hugo is a static site generator, also see a quick start guide Github Actions is a CI/CD building blocks for Github Github Pages is a free hosting for static websites You can setup hugo with Github Actions and Pages using this link Posts can be edited as markdown documents, syntax cheatsheet is here To be loved you should be nice  Also I replace --minify flag in my Actions file from the guide with -D, since the old command couldn&amp;rsquo;t generate new pages.</description>
-    </item>
-    
-    <item>
-      <title>About</title>
-      <link>https://snyssfx.github.io/about/</link>
-      <pubDate>Thu, 18 Mar 2021 20:03:27 +0300</pubDate>
-      
-      <guid>https://snyssfx.github.io/about/</guid>
-      <description>I&amp;rsquo;m a software engineer at ozon.ru in Moscow. Here I am working in a team as a Go backend engineer.My background is in computer science, I did my undergrad at Saint-Petersburg State University. I did my thesis with JetBrains lab of AI tools for IntelliJ IDEA, and at the same time, I worked in a few part-time jobs-startups.After the university, I wanted to develop highly distributed systems and joined a game company as a Python engineer.</description>
     </item>
     
   </channel>

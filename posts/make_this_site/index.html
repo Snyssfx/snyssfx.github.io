@@ -6,27 +6,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <meta name="author" content="Gleb Zakharov">
-    <meta name="description" content="Gleb Zakharov&#39;s personal website">
+    <meta name="description" content="https://snyssfx.github.io/">
     <meta name="keywords" content="blog,developer,personal">
 
     <meta property="og:site_name" content="Gleb Zakharov">
     <meta property="og:title" content="
-  Posts - Gleb Zakharov
+  How to make a site like that - Gleb Zakharov
 ">
-    <meta property="og:description" content="Gleb Zakharov&#39;s personal website">
+    <meta property="og:description" content="How to make a personal blog using hugo and github actions">
     <meta property="og:type" content="website">
-    <meta property="og:url" content="https://snyssfx.github.io/posts/">
-    <meta property="og:image" content="https://snyssfx.github.io/images/tn.png">
+    <meta property="og:url" content="https://snyssfx.github.io/posts/make_this_site/">
+    <meta property="og:image" content="https://snyssfx.github.io/avatar.jpeg">
     <meta name="twitter:card" content="summary">
-    <meta name="twitter:site" content="https://snyssfx.github.io/posts/">
-    <meta name="twitter:image" content="https://snyssfx.github.io/images/tn.png">
+    <meta name="twitter:site" content="https://snyssfx.github.io/posts/make_this_site/">
+    <meta name="twitter:image" content="https://snyssfx.github.io/avatar.jpeg">
 
-    <base href="https://snyssfx.github.io/posts/">
+    <base href="https://snyssfx.github.io/posts/make_this_site/">
     <title>
-  Posts - Gleb Zakharov
+  How to make a site like that - Gleb Zakharov
 </title>
 
-    <link rel="canonical" href="https://snyssfx.github.io/posts/">
+    <link rel="canonical" href="https://snyssfx.github.io/posts/make_this_site/">
     
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
     
@@ -107,24 +107,38 @@
 
       <div class="content">
         
-  <section class="container list">
-  <h1 class="title">Posts</h1>
-  <ul>
-    
-    <li>
-      <span>March 20, 2021</span><a href="https://snyssfx.github.io/posts/make_this_site/">How to make a site like that</a>
-    </li>
-    
-  </ul>
+  <section class="container post">
+  <article>
+    <header>
+      <h1 class="title">How to make a site like that</h1>
+      <h2 class="date">March 20, 2021</h2>
+
+      
+    </header>
+
+    <p>This site was build with hugo, Github Actions, markdown pages and a drop of love. Here is a couple of links I used:</p>
+<ul>
+<li><a href="https://github.com/gohugoio/hugo">hugo</a> is a static site generator, also see <a href="https://gohugo.io/getting-started/quick-start/">a quick start guide</a></li>
+<li><a href="https://github.com/features/actions">Github Actions</a> is a CI/CD building blocks for Github</li>
+<li><a href="https://pages.github.com/">Github Pages</a> is a free hosting for static websites</li>
+<li>You can setup hugo with Github Actions and Pages using <a href="https://gohugo.io/hosting-and-deployment/hosting-on-github/#readout">this link</a></li>
+<li>Posts can be edited as markdown documents, syntax cheatsheet is <a href="https://www.markdownguide.org/basic-syntax/">here</a></li>
+<li>To be loved you should be nice</li>
+</ul>
+<p>Also I replace <code>--minify</code> flag in <a href="https://github.com/Snyssfx/snyssfx.github.io/blob/main/.github/workflows/gh-pages.yml#L24">my Actions file</a> from the guide with <code>-D</code>, since the old command couldn&rsquo;t generate new pages.</p>
+<p>Here is the CLI commands for hugo:</p>
+<div class="highlight"><pre class="chroma"><code class="language-zsh" data-lang="zsh">$ hugo new site blog              <span class="c1"># create directory &#39;blog&#39; with site skeleton</span>
+$ hugo new posts/my-first-post.md <span class="c1"># create first post blog</span>
+$ hugo server -D                  <span class="c1"># start a local server with hot reloading</span>
+$ hugo -D                         <span class="c1"># build site</span>
+</code></pre></div>
+  </article>
+
+  <br/>
+
   
-
-
-
-
-
-
+  
 </section>
-
 
       </div>
       
