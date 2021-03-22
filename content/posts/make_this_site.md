@@ -19,7 +19,7 @@ This site was build with hugo, Github Actions, markdown pages and a drop of love
 
 Also I replace `--minify` flag in [my Actions file](https://github.com/Snyssfx/snyssfx.github.io/blob/main/.github/workflows/gh-pages.yml#L24) from the guide with `-D`, since the old command couldn't generate new pages.
 
-Here is the CLI commands for hugo:
+Here is the CLI commands for hugo (also see [cheat.sh](https://cheat.sh/hugo)):
 ```zsh
 $ hugo new site blog              # create directory 'blog' with site skeleton
 $ hugo new posts/my-first-post.md # create first post blog
