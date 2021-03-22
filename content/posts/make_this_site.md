@@ -1,6 +1,7 @@
 +++ 
 draft = true
 date = 2021-03-20T19:16:21+03:00
+lastmod = 2021-03-22T18:16:21+03:00 
 title = "How to make a site like that"
 slug = "" 
 tags = ["site", "personal", "blog", "hugo", "markdown", "github", "actions"]
