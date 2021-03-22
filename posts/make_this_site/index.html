@@ -126,7 +126,7 @@
 <li>To be loved you should be nice</li>
 </ul>
 <p>Also I replace <code>--minify</code> flag in <a href="https://github.com/Snyssfx/snyssfx.github.io/blob/main/.github/workflows/gh-pages.yml#L24">my Actions file</a> from the guide with <code>-D</code>, since the old command couldn&rsquo;t generate new pages.</p>
-<p>Here is the CLI commands for hugo:</p>
+<p>Here is the CLI commands for hugo (also see <a href="https://cheat.sh/hugo">cheat.sh</a>):</p>
 <div class="highlight"><pre class="chroma"><code class="language-zsh" data-lang="zsh">$ hugo new site blog              <span class="c1"># create directory &#39;blog&#39; with site skeleton</span>
 $ hugo new posts/my-first-post.md <span class="c1"># create first post blog</span>
 $ hugo server -D                  <span class="c1"># start a local server with hot reloading</span>
@@ -136,6 +136,27 @@ $ hugo -D                         <span class="c1"># build site</span>
 
   <br/>
 
+  
+      <div id="disqus_thread"></div>
+<script type="application/javascript">
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "snyssfx-github-io" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
   
   
 </section>
