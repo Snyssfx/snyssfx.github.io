@@ -113,7 +113,7 @@ pygmentsUseClasses = true # new add
             [[languages.ru.menu.main]]
             name = "обо мне"
             weight = 1.0
-            url = "about"
+            url = "../about"
 
             [[languages.ru.menu.main]]
             name = "резюме"
@@ -123,5 +123,5 @@ pygmentsUseClasses = true # new add
             [[languages.ru.menu.main]]
             name = "посты"
             weight = 3.0
-            url = "posts"
+            url = "../posts"
 
