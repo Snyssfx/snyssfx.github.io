@@ -122,7 +122,7 @@ and <code>:find</code> commands. Also for <code>:find</code> one you should set 
 option or <code>includeexpr</code> func when imports of language are
 rather different from usual project structure.</p>
 <p>I don&rsquo;t think the <code>:find</code> command is useful for Go programming since you
-should include <code>$HOME/pkg/mod</code> in <code>path</code>, and file searching is pretty slow at this point.
+should include <code>$HOME/pkg/mod</code> in <code>path</code>, and file searching become pretty slow at this point.
 Neither an <code>include</code> option is useful, since Go has <code>gopls</code> language server and
 it&rsquo;s easy to go-to-definition of a file or variable.
 Also the package syntax in Go has github prefixes, and I cannot google <code>includeexpr</code> for Go.</p>
@@ -130,7 +130,8 @@ Also the package syntax in Go has github prefixes, and I cannot google <code>inc
 It allows the user to jump to the first include containing <code>part_of_include</code> name.
 It&rsquo;s faster then searching one of the package usage and then go-to-definition of the one,
 since you don&rsquo;t have to jump twice.</p>
-<p>I wonder if such a command exists for go-to-definition of 1 variable for LSP, like the great <code>:tag /part_of_tag</code>. Do you know any?</p>
+<p>I wonder if such a command exists for go-to-definition of 1 variable for LSP, like the great <code>:tag /part_of_tag</code>.
+Do you know any?</p>
 
   </article>
 
