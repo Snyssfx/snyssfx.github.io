@@ -11,22 +11,22 @@
 
     <meta property="og:site_name" content="Gleb Zakharov">
     <meta property="og:title" content="
-  How to make a site like that - Gleb Zakharov
+  vim vertical moves - Gleb Zakharov
 ">
-    <meta property="og:description" content="How to make a personal blog using hugo and github actions">
+    <meta property="og:description" content="">
     <meta property="og:type" content="website">
-    <meta property="og:url" content="https://snyssfx.github.io/posts/make_this_site/">
-    <meta property="og:image" content="https://snyssfx.github.io/avatar.jpeg">
+    <meta property="og:url" content="https://snyssfx.github.io/posts/vim-fast-vertical-moves/">
+    <meta property="og:image" content="https://snyssfx.github.io/images/tn.png">
     <meta name="twitter:card" content="summary">
-    <meta name="twitter:site" content="https://snyssfx.github.io/posts/make_this_site/">
-    <meta name="twitter:image" content="https://snyssfx.github.io/avatar.jpeg">
+    <meta name="twitter:site" content="https://snyssfx.github.io/posts/vim-fast-vertical-moves/">
+    <meta name="twitter:image" content="https://snyssfx.github.io/images/tn.png">
 
-    <base href="https://snyssfx.github.io/posts/make_this_site/">
+    <base href="https://snyssfx.github.io/posts/vim-fast-vertical-moves/">
     <title>
-  How to make a site like that - Gleb Zakharov
+  vim vertical moves - Gleb Zakharov
 </title>
 
-    <link rel="canonical" href="https://snyssfx.github.io/posts/make_this_site/">
+    <link rel="canonical" href="https://snyssfx.github.io/posts/vim-fast-vertical-moves/">
     
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
     
@@ -110,28 +110,27 @@
   <section class="container post">
   <article>
     <header>
-      <h1 class="title">How to make a site like that</h1>
-      <h2 class="date">March 20, 2021</h2>
+      <h1 class="title">vim vertical moves</h1>
+      <h2 class="date">March 21, 2021</h2>
 
       
     </header>
 
-    <p>This site was build with hugo, Github Actions, markdown pages and a drop of love. Here is a couple of links I used:</p>
-<ul>
-<li><a href="https://github.com/gohugoio/hugo">hugo</a> is a static site generator, also see <a href="https://gohugo.io/getting-started/quick-start/">a quick start guide</a></li>
-<li><a href="https://github.com/features/actions">Github Actions</a> is a CI/CD building blocks for Github</li>
-<li><a href="https://pages.github.com/">Github Pages</a> is a free hosting for static websites</li>
-<li>You can setup hugo with Github Actions and Pages using <a href="https://gohugo.io/hosting-and-deployment/hosting-on-github/#readout">this link</a></li>
-<li>Posts can be edited as markdown documents, syntax cheatsheet is <a href="https://www.markdownguide.org/basic-syntax/">here</a></li>
-<li>To be loved you should be nice</li>
-</ul>
-<p>Also I replace <code>--minify</code> flag in <a href="https://github.com/Snyssfx/snyssfx.github.io/blob/main/.github/workflows/gh-pages.yml#L24">my Actions file</a> from the guide with <code>-D</code>, since the old command couldn&rsquo;t generate new pages.</p>
-<p>Here is the CLI commands for hugo (also see <a href="https://cheat.sh/hugo">cheat.sh</a>):</p>
-<div class="highlight"><pre class="chroma"><code class="language-zsh" data-lang="zsh">$ hugo new site blog              <span class="c1"># create directory &#39;blog&#39; with site skeleton</span>
-$ hugo new posts/my-first-post.md <span class="c1"># create first post blog</span>
-$ hugo server -D                  <span class="c1"># start a local server with hot reloading</span>
-$ hugo -D                         <span class="c1"># build site</span>
-</code></pre></div>
+    <p>Recently I&rsquo;ve read <a href="https://vimways.org/2018/death-by-a-thousand-files/">a great article</a> about moving around files in vim.
+The author says you could move between files faster with using <code>:edit</code>,
+<code>:find</code> command with setting <code>include</code> option or <code>includeexpr</code> func when imports of language are
+rather different from usual project structure.</p>
+<p>I don&rsquo;t find the <code>:find</code> vim command useful for Go programming since you
+should include <code>$HOME/pkg/mod</code> in <code>path</code>, and search for file is pretty slow at this point.
+Neither an <code>include</code> option is useful, since Go has <code>gopls</code> language server and
+it&rsquo;s easy to go-to-definition of a file or variable.
+Also the package syntax in Go has github prefixes, and I cannot google <code>includeexpr</code> for Go.</p>
+<p>What I find useful is command <code>:ijump /part_of_include</code> or faster <code>:ij /part_of_include</code>.
+It allows user to jump to the first include containing <code>part_of_include</code> name.
+It&rsquo;s faster then search one of the package usage and then go-to-definition,
+since you don&rsquo;t have to jump twice.
+I wonder if such a command exists for go-to-definition of 1 variable.</p>
+
   </article>
 
   <br/>

@@ -9,12 +9,12 @@
     <lastBuildDate>Sat, 20 Mar 2021 19:16:21 +0300</lastBuildDate><atom:link href="https://snyssfx.github.io/tags/markdown/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>How to make a site like that</title>
-      <link>https://snyssfx.github.io/posts/make_this_site/</link>
+      <link>https://snyssfx.github.io/posts/make-this-site/</link>
       <pubDate>Sat, 20 Mar 2021 19:16:21 +0300</pubDate>
       
-      <guid>https://snyssfx.github.io/posts/make_this_site/</guid>
+      <guid>https://snyssfx.github.io/posts/make-this-site/</guid>
       <description>This site was build with hugo, Github Actions, markdown pages and a drop of love. Here is a couple of links I used:
- hugo is a static site generator, also see a quick start guide Github Actions is a CI/CD building blocks for Github Github Pages is a free hosting for static websites You can setup hugo with Github Actions and Pages using this link Posts can be edited as markdown documents, syntax cheatsheet is here To be loved you should be nice  Also I replace --minify flag in my Actions file from the guide with -D, since the old command couldn&amp;rsquo;t generate new pages.</description>
+ hugo is a static site generator, also see a quick start guide Github Actions is a CI/CD building blocks for Github Github Pages is a free hosting for static websites You can setup hugo with Github Actions and Pages using this link Posts can be edited as markdown documents, syntax cheatsheet is here To be loved you should be nice  Also I replace --minify flag in my Actions file from the guide with -D, since the old command couldn&amp;rsquo;t generate new pages (UPD: -D == --buildDrafts, so you should not mark posts as drafts and everything will be OK with the default configuration)</description>
     </item>
     
   </channel>

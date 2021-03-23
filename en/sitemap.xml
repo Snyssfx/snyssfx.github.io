@@ -2,15 +2,6 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://snyssfx.github.io/tags/actions/</loc>
-    <lastmod>2021-03-22T18:16:21+03:00</lastmod>
-  </url><url>
-    <loc>https://snyssfx.github.io/tags/blog/</loc>
-    <lastmod>2021-03-22T18:16:21+03:00</lastmod>
-  </url><url>
-    <loc>https://snyssfx.github.io/tags/github/</loc>
-    <lastmod>2021-03-22T18:16:21+03:00</lastmod>
-  </url><url>
     <loc>https://snyssfx.github.io/</loc>
     <lastmod>2021-03-22T18:16:21+03:00</lastmod>
     <xhtml:link
@@ -24,22 +15,16 @@
                 href="https://snyssfx.github.io/"
                 />
   </url><url>
-    <loc>https://snyssfx.github.io/posts/make_this_site/</loc>
-    <lastmod>2021-03-22T18:16:21+03:00</lastmod>
+    <loc>https://snyssfx.github.io/tags/go/</loc>
+    <lastmod>2021-03-21T18:59:00+03:00</lastmod>
   </url><url>
-    <loc>https://snyssfx.github.io/tags/hugo/</loc>
-    <lastmod>2021-03-22T18:16:21+03:00</lastmod>
+    <loc>https://snyssfx.github.io/tags/golang/</loc>
+    <lastmod>2021-03-21T18:59:00+03:00</lastmod>
   </url><url>
-    <loc>https://snyssfx.github.io/tags/markdown/</loc>
-    <lastmod>2021-03-22T18:16:21+03:00</lastmod>
-  </url><url>
-    <loc>https://snyssfx.github.io/tags/personal/</loc>
-    <lastmod>2021-03-22T18:16:21+03:00</lastmod>
+    <loc>https://snyssfx.github.io/tags/include/</loc>
+    <lastmod>2021-03-21T18:59:00+03:00</lastmod>
   </url><url>
     <loc>https://snyssfx.github.io/posts/</loc>
-    <lastmod>2021-03-22T18:16:21+03:00</lastmod>
-  </url><url>
-    <loc>https://snyssfx.github.io/tags/site/</loc>
     <lastmod>2021-03-22T18:16:21+03:00</lastmod>
   </url><url>
     <loc>https://snyssfx.github.io/tags/</loc>
@@ -54,6 +39,36 @@
                 hreflang="en"
                 href="https://snyssfx.github.io/tags/"
                 />
+  </url><url>
+    <loc>https://snyssfx.github.io/tags/vim/</loc>
+    <lastmod>2021-03-21T18:59:00+03:00</lastmod>
+  </url><url>
+    <loc>https://snyssfx.github.io/posts/vim-fast-vertical-moves/</loc>
+    <lastmod>2021-03-21T18:59:00+03:00</lastmod>
+  </url><url>
+    <loc>https://snyssfx.github.io/tags/actions/</loc>
+    <lastmod>2021-03-22T18:16:21+03:00</lastmod>
+  </url><url>
+    <loc>https://snyssfx.github.io/tags/blog/</loc>
+    <lastmod>2021-03-22T18:16:21+03:00</lastmod>
+  </url><url>
+    <loc>https://snyssfx.github.io/tags/github/</loc>
+    <lastmod>2021-03-22T18:16:21+03:00</lastmod>
+  </url><url>
+    <loc>https://snyssfx.github.io/posts/make-this-site/</loc>
+    <lastmod>2021-03-22T18:16:21+03:00</lastmod>
+  </url><url>
+    <loc>https://snyssfx.github.io/tags/hugo/</loc>
+    <lastmod>2021-03-22T18:16:21+03:00</lastmod>
+  </url><url>
+    <loc>https://snyssfx.github.io/tags/markdown/</loc>
+    <lastmod>2021-03-22T18:16:21+03:00</lastmod>
+  </url><url>
+    <loc>https://snyssfx.github.io/tags/personal/</loc>
+    <lastmod>2021-03-22T18:16:21+03:00</lastmod>
+  </url><url>
+    <loc>https://snyssfx.github.io/tags/site/</loc>
+    <lastmod>2021-03-22T18:16:21+03:00</lastmod>
   </url><url>
     <loc>https://snyssfx.github.io/about/</loc>
     <lastmod>2021-03-18T20:03:27+03:00</lastmod>
