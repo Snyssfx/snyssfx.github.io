@@ -1,5 +1,5 @@
 +++ 
-draft = true
+draft = false
 date = 2021-03-20T19:16:21+03:00
 lastmod = 2021-03-22T18:16:21+03:00 
 title = "How to make a site like that"
@@ -18,7 +18,9 @@ This site was build with hugo, Github Actions, markdown pages and a drop of love
 - Posts can be edited as markdown documents, syntax cheatsheet is [here](https://www.markdownguide.org/basic-syntax/)
 - To be loved you should be nice
 
-Also I replace `--minify` flag in [my Actions file](https://github.com/Snyssfx/snyssfx.github.io/blob/main/.github/workflows/gh-pages.yml#L24) from the guide with `-D`, since the old command couldn't generate new pages.
+Also I replace `--minify` flag in [my Actions file](https://github.com/Snyssfx/snyssfx.github.io/blob/main/.github/workflows/gh-pages.yml#L24) from the guide with `-D`, since the old command couldn't generate new pages
+(UPD: `-D == --buildDrafts`, so you should not mark posts as drafts
+and everything will be OK with the default configuration)
 
 Here is the CLI commands for hugo (also see [cheat.sh](https://cheat.sh/hugo)):
 ```zsh
