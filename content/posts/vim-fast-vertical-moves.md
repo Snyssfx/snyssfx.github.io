@@ -1,12 +1,12 @@
 +++ 
 draft = false
 date = 2021-03-21T18:59:00+03:00
-title = "vim vertical moves"
+title = "vim ijump command"
 slug = "" 
-tags = ["vim", "include", "go", "golang"]
+tags = ["vim", "include", "go", "golang", "ijump", "include"]
 categories = []
 thumbnail = "images/tn.png"
-description = ""
+description = "Describes :ijump command from vim"
 +++
 
 Recently I've read [a great article](https://vimways.org/2018/death-by-a-thousand-files/) about moving around files in vim.
