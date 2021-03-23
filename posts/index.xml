@@ -13,8 +13,8 @@
       <pubDate>Sun, 21 Mar 2021 18:59:00 +0300</pubDate>
       
       <guid>https://snyssfx.github.io/posts/vim-fast-vertical-moves/</guid>
-      <description>Recently I&amp;rsquo;ve read a great article about moving around files in vim. The author says you could move between files faster with using :edit, :find command with setting include option or includeexpr func when imports of language are rather different from usual project structure.
-I don&amp;rsquo;t find the :find vim command useful for Go programming since you should include $HOME/pkg/mod in path, and search for file is pretty slow at this point.</description>
+      <description>Recently I&amp;rsquo;ve read a great article about moving around files in vim. The author says you could move between files faster with using :edit and :find commands. Also for :find one you should set include option or includeexpr func when imports of language are rather different from usual project structure.
+I don&amp;rsquo;t think the :find command is useful for Go programming since you should include $HOME/pkg/mod in path, and file searching is pretty slow at this point.</description>
     </item>
     
     <item>

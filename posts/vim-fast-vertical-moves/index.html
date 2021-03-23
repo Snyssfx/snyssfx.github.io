@@ -117,19 +117,20 @@
     </header>
 
     <p>Recently I&rsquo;ve read <a href="https://vimways.org/2018/death-by-a-thousand-files/">a great article</a> about moving around files in vim.
-The author says you could move between files faster with using <code>:edit</code>,
-<code>:find</code> command with setting <code>include</code> option or <code>includeexpr</code> func when imports of language are
+The author says you could move between files faster with using <code>:edit</code>
+and <code>:find</code> commands. Also for <code>:find</code> one you should set <code>include</code>
+option or <code>includeexpr</code> func when imports of language are
 rather different from usual project structure.</p>
-<p>I don&rsquo;t find the <code>:find</code> vim command useful for Go programming since you
-should include <code>$HOME/pkg/mod</code> in <code>path</code>, and search for file is pretty slow at this point.
+<p>I don&rsquo;t think the <code>:find</code> command is useful for Go programming since you
+should include <code>$HOME/pkg/mod</code> in <code>path</code>, and file searching is pretty slow at this point.
 Neither an <code>include</code> option is useful, since Go has <code>gopls</code> language server and
 it&rsquo;s easy to go-to-definition of a file or variable.
 Also the package syntax in Go has github prefixes, and I cannot google <code>includeexpr</code> for Go.</p>
 <p>What I find useful is command <code>:ijump /part_of_include</code> or faster <code>:ij /part_of_include</code>.
-It allows user to jump to the first include containing <code>part_of_include</code> name.
-It&rsquo;s faster then search one of the package usage and then go-to-definition,
-since you don&rsquo;t have to jump twice.
-I wonder if such a command exists for go-to-definition of 1 variable.</p>
+It allows the user to jump to the first include containing <code>part_of_include</code> name.
+It&rsquo;s faster then searching one of the package usage and then go-to-definition of the one,
+since you don&rsquo;t have to jump twice.</p>
+<p>I wonder if such a command exists for go-to-definition of 1 variable for LSP, like the great <code>:tag /part_of_tag</code>. Do you know any?</p>
 
   </article>
 
