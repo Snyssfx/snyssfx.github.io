@@ -2,12 +2,13 @@
 draft = false
 date = 2021-03-20T19:16:21+03:00
 lastmod = 2021-03-22T18:16:21+03:00 
-title = "How to make a site like that"
+title = "How to make a site using Hugo, Github Actions and pages"
+description = "How to make a personal blog using hugo and github actions"
+keywords = ["site", "personal", "blog", "hugo", "markdown", "github", "actions", "pages"]
+tags = ["site", "personal", "blog", "hugo", "markdown", "github", "actions", "pages"]
 slug = "" 
-tags = ["site", "personal", "blog", "hugo", "markdown", "github", "actions"]
 categories = []
 thumbnail = "avatar.jpeg"
-description = "How to make a personal blog using hugo and github actions"
 +++
 
 This site was build with hugo, Github Actions, markdown pages and a drop of love. Here is a couple of links I used:
