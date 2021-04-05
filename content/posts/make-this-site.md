@@ -5,7 +5,7 @@ lastmod = 2021-03-22T18:16:21+03:00
 title = "How to make a site using Hugo, Github Actions and pages"
 description = "How to make a personal blog using hugo and github actions"
 keywords = ["site", "personal", "blog", "hugo", "markdown", "github", "actions", "pages"]
-tags = ["site", "personal", "blog", "hugo", "markdown", "github", "actions", "pages"]
+tags = ["site", "blog", "hugo", "markdown", "github"]
 slug = "" 
 categories = []
 thumbnail = "avatar.jpeg"
@@ -24,9 +24,9 @@ Also I replace `--minify` flag in [my Actions file](https://github.com/Snyssfx/s
 and everything will be OK with the default configuration)
 
 Here is the CLI commands for hugo (also see [cheat.sh](https://cheat.sh/hugo)):
-```zsh
-$ hugo new site blog              # create directory 'blog' with site skeleton
-$ hugo new posts/my-first-post.md # create first post blog
-$ hugo server -D                  # start a local server with hot reloading
-$ hugo -D                         # build site
+```py
+hugo new site blog              # create directory 'blog' with site skeleton
+hugo new posts/my-first-post.md # create first post blog
+hugo server -D                  # start a local server with hot reloading
+hugo -D                         # build site
 ```

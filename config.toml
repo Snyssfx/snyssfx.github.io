@@ -1,27 +1,47 @@
 baseURL = "https://snyssfx.github.io/" # Hostname (and path) to the root.
 languageCode = "en-us"
 title = "Gleb Zakharov"
-theme = "hugo-coder-portfolio"
-
+theme = "hugo-coder"
 defaultcontentlanguage = "en" # The default content language.
 paginate = 20 # Default number of pages per page in pagination.
-pygmentsstyle = "b2" # Color-theme or style for syntax highlighting.
+
+# pygmentsstyle = "monokai" # Color-theme or style for syntax highlighting.
+pygmentsstyle = "monokai" # Color-theme or style for syntax highlighting.
 pygmentscodefences = true # Enable code fence background highlighting.
 pygmentscodefencesguesssyntax = true # Enable syntax guessing for code fences without specified language.
-pygmentsUseClasses = true # new add
+# pygmentsUseClasses = true # new add
 
 disqusShortname = "snyssfx-github-io" # Enable or disable Disqus.
 
+[markup]
+[markup.highlight]
+    anchorLineNos = true
+    codeFences = true
+    guessSyntax = true
+    hl_Lines = ""
+    lineAnchors = ""
+    lineNoStart = 1
+    lineNos = true
+    lineNumbersInTable = true
+    noClasses = true
+    # style = "monokai" # todo why not working
+    tabWidth = 4
+
 [params] # theme parameters
     author = "Gleb Zakharov" # Author's name.
-    info = "BACKEND SOFTWARE ENGINEER" # Author's job title or info.
+    info = "Backend software engineer" # Author's job title or info.
     description = "Gleb Zakharov's personal website" # Site description.
     keywords = "blog,developer,personal" # Site keywords.
     avatarurl = "avatar.jpeg" # Contain the path of the optionnal avatar in the static folder.
 
+    favicon_32 = "/img/favicon-32x32.png"
+    favicon_16 = "/img/favicon-16x16.png"
+
+    hideFooter = false
+    since = 2019
     footercontent = "💝" # Add footer content
-    fixedbarContent = "Email me! " # Add fixedbar content
-    fixedbarContentAfter = "snyssfx@gmail.com" # Add fixedbar content after click
+    # fixedbarContent = "Email me! " # Add fixedbar content
+    # fixedbarContentAfter = "snyssfx@gmail.com" # Add fixedbar content after click
 
     # Whether you want to hide copyright and credits in the footer.
     hideCredits = false
@@ -50,23 +70,34 @@ disqusShortname = "snyssfx-github-io" # Enable or disable Disqus.
 
     # Multilanguage mode
     langseparator = "|" # Separates menus from language selectors when site is multilingual.
+ 
+[taxonomies]
+  category = "categories"
+  series = "series"
+  tag = "tags"
+  author = "authors"   
 
 # Social links
 [[params.social]]
     name = "Github"
-    icon = "fab fa-github"
+    icon = "fa fa-github fa-2x"
     weight = 1
     url = "https://github.com/Snyssfx/"
 [[params.social]]
     name = "LinkedIn"
-    icon = "fab fa-linkedin"
-    weight = 3
+    icon = "fa fa-linkedin fa-2x"
+    weight = 2
     url = "https://www.linkedin.com/in/gleb-zakharov-44080215b/"
 [[params.social]]
     name = "Telegram"
-    icon = "fab fa-telegram"
-    weight = 4
+    icon = "fa fa-telegram fa-2x"
+    weight = 3
     url = "https://t.me/snyssfx"
+[[params.social]]
+    name = "E-mail"
+    icon = "fa fa-envelope fa-2x"
+    weight = 3
+    url = "mailto:snyssfx@gmail.com"
 
 [languages]
     [languages.en]
