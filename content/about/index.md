@@ -1,7 +1,7 @@
 ---
 title: "About"
 date: 2021-03-18T20:03:27+03:00
-draft: true
+draft: false
 ---
 I'm a software engineer at [ozon.ru](https://ozon.ru) in Moscow. Here I am working in a team as a Go backend engineer.<br>
 
