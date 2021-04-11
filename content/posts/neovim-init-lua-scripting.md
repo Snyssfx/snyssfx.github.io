@@ -1,6 +1,7 @@
 +++ 
 draft = false
 date = 2021-04-05T14:31:48+03:00
+lastmod = 2021-04-11T14:31:48+03:00
 title = "lua programming trick for neovim scripting"
 description = "How to effectively program on lua language for neovim"
 slug = "" 
@@ -10,9 +11,9 @@ categories = []
 thumbnail = "images/tn.png"
 +++
 
-__TL;DR__ you can use __ctags__ for go-to-definition and look for ideas of configuring, for example, the neovim lsp.  
-You can't do it with __sumneko__ and other language servers for lua.  
-The instruction of how is below.
+__TL;DR__ you can generate __ctags__ for go-to-definition in lua code and explore sources for better, for example, lsp configuring.  
+You can't go-to-definition with __sumneko__ and other language servers for lua.  
+The instruction of how to use __ctags__ is below.
 
 ### Introduction and lua
 

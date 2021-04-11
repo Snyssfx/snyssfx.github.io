@@ -38,7 +38,7 @@ disqusShortname = "snyssfx-github-io" # Enable or disable Disqus.
     favicon_16 = "/img/favicon-16x16.png"
 
     hideFooter = false
-    since = 2019
+    since = 2021
     footercontent = "💝" # Add footer content
     # fixedbarContent = "Email me! " # Add fixedbar content
     # fixedbarContentAfter = "snyssfx@gmail.com" # Add fixedbar content after click
@@ -70,6 +70,9 @@ disqusShortname = "snyssfx-github-io" # Enable or disable Disqus.
 
     # Multilanguage mode
     langseparator = "|" # Separates menus from language selectors when site is multilingual.
+
+    colorScheme = "auto"
+    hideColorSchemeToggle = false
  
 [taxonomies]
   category = "categories"
