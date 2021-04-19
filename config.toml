@@ -71,7 +71,7 @@ disqusShortname = "snyssfx-github-io" # Enable or disable Disqus.
     # Multilanguage mode
     langseparator = "|" # Separates menus from language selectors when site is multilingual.
 
-    colorScheme = "auto"
+    colorScheme = "dark"
     hideColorSchemeToggle = false
  
 [taxonomies]
@@ -131,6 +131,11 @@ disqusShortname = "snyssfx-github-io" # Enable or disable Disqus.
         weight = 3.0
         url = "posts"
 
+        [[languages.en.menu.main]]
+        name = "Tags"
+        weight = 4.0
+        url = "tags"
+
     [languages.ru]
         languagename = "Russian"
         title = "Глеб Захаров"
@@ -158,4 +163,9 @@ disqusShortname = "snyssfx-github-io" # Enable or disable Disqus.
             name = "посты"
             weight = 3.0
             url = "../posts"
+
+            [[languages.ru.menu.main]]
+            name = "теги"
+            weight = 4.0
+            url = "../tags"
 
