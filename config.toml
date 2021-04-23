@@ -71,7 +71,7 @@ disqusShortname = "snyssfx-github-io" # Enable or disable Disqus.
     # Multilanguage mode
     langseparator = "|" # Separates menus from language selectors when site is multilingual.
 
-    colorScheme = "dark"
+    colorScheme = "auto"
     hideColorSchemeToggle = false
  
 [taxonomies]
