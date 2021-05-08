@@ -53,6 +53,7 @@ You can find references [here](https://www.educative.io/blog/bash-shell-command-
 Programs that you can `apt-get`, `brew install` and so on.  
 They are colorize output and make terminal cooler:
   - `rg`, `sd`, `fd`, `exa`, `bat`, `delta`, `httpie` instead of `grep`, `sed`, `find`, `ls and tree`, `cat`, `diff` and `curl` respectively.
+  - `jq`, `fx`, `yh`, `base64` for viewing jsons and yamls faster in the terminal.
 
 Personally I'm not using all of them, but it's certainly worth to try them.  
 Go to github for the full descriptions of each one.
