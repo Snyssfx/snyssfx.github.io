@@ -5,8 +5,7 @@ theme = "hugo-coder"
 defaultcontentlanguage = "en" # The default content language.
 paginate = 20 # Default number of pages per page in pagination.
 
-# pygmentsstyle = "monokai" # Color-theme or style for syntax highlighting.
-pygmentsstyle = "monokai" # Color-theme or style for syntax highlighting.
+pygmentsstyle = "friendly" # Color-theme or style for syntax highlighting.
 pygmentscodefences = true # Enable code fence background highlighting.
 pygmentscodefencesguesssyntax = true # Enable syntax guessing for code fences without specified language.
 # pygmentsUseClasses = true # new add
@@ -71,8 +70,8 @@ disqusShortname = "snyssfx-github-io" # Enable or disable Disqus.
     # Multilanguage mode
     langseparator = "|" # Separates menus from language selectors when site is multilingual.
 
-    colorScheme = "auto"
-    hideColorSchemeToggle = false
+    colorScheme = "light"
+    hideColorSchemeToggle = true
  
 [taxonomies]
   category = "categories"

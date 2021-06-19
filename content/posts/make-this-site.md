@@ -11,15 +11,15 @@ categories = []
 thumbnail = "avatar.jpeg"
 +++
 
-This site was build with hugo, Github Actions, markdown pages and a drop of love. Here is a couple of links I used:
+This site was build with hugo, Github Actions, Markdown pages and a drop of love. Here is a couple of links I used:
 - [hugo](https://github.com/gohugoio/hugo) is a static site generator, also see [a quick start guide](https://gohugo.io/getting-started/quick-start/)
 - [Github Actions](https://github.com/features/actions) is a CI/CD building blocks for Github
 - [Github Pages](https://pages.github.com/) is a free hosting for static websites
 - You can setup hugo with Github Actions and Pages using [this link](https://gohugo.io/hosting-and-deployment/hosting-on-github/#readout)
-- Posts can be edited as markdown documents, syntax cheatsheet is [here](https://www.markdownguide.org/basic-syntax/)
-- To be loved you should be nice
+- Posts can be edited as Markdown documents, syntax cheat sheet is [here](https://www.markdownguide.org/basic-syntax/)
+- To be loved you should be nice.
 
-Also I replace `--minify` flag in [my Actions file](https://github.com/Snyssfx/snyssfx.github.io/blob/main/.github/workflows/gh-pages.yml#L24) from the guide with `-D`, since the old command couldn't generate new pages
+Also, I replace `--minify` flag in [my Actions file](https://github.com/Snyssfx/snyssfx.github.io/blob/main/.github/workflows/gh-pages.yml#L24) from the guide with `-D`, since the old command couldn't generate new pages
 (UPD: `-D == --buildDrafts`, so you should not mark posts as drafts
 and everything will be OK with the default configuration)
 
