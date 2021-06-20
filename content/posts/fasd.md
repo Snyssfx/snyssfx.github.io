@@ -82,7 +82,7 @@ f -e vim rc lo  # vim /etc/rc.local, find a file and pass it to an executable (v
 
 ### zoxide
 `zoxide` works only for directories like `z`, but it also includes `cd` functionality, 
-so you can `alias callow tod='zoxide'` and boost your productivity. Also, it is integrated with `fzf` 
+so you can `alias cd='zoxide'` and boost your productivity. Also, it is integrated with `fzf` 
 command for faster searching through the stored cache.  
 Examples:
 ```bash
