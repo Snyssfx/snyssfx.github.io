@@ -23,9 +23,18 @@ open them with `$EDITOR` or `xdg-open` and use them as arguments to another comm
 
 Next I will tell you about the differences and features of each one.
 
+### References
+- https://github.com/rupa/z
+- https://github.com/rupa/v
+- https://github.com/wting/autojump
+- https://github.com/clvv/fasd
+- https://github.com/ajeetdsouza/zoxide
+
 ---
 
 ### z
+With `z`, you can `cd` into a directory by typing only a part of the path. You can use it to enter directories you are often used.  
+
 `z` holds a cache of directories you've visited based on 'frecency': it's a combined metric 
 of frequency and recency of accessing a directory.  
 Examples:
@@ -36,7 +45,7 @@ z foo bar # cd to most frecent dir matching foo, then bar
 
 ### autojump
 `autojump` has the same functionality as `z` for jumping to a directory, 
-but instead of `z` command it introduces `j` command and aliases that can `xdg-open` one.  
+but instead of `z` command it introduces `j` command and aliases that can `xdg-open` directories with a file explorer (Mac Finder, Windows Explorer, GNOME Nautilus, etc.).  
 Examples:
 ```bash
 j foo    # same as z foo
@@ -92,6 +101,8 @@ zi foo # interactive search through all 'foo' occurences with fzf program
 ---
 
 # My fasd configuration
+To sum up the review, you should choose between `fasd` and `zoxide`, since they implement other tools' features and add new ones.  
+
 As for me, `fasd` incorporates all `z`, `v` and `autojump` features, while `zoxide` 
 cannot allow me to access files which is crucial for a vim user.  
 Now I'm going to share my configuration that integrates [neo]vim and fasd more closely:  
@@ -134,9 +145,3 @@ vim.api.nvim_exec([[
 So now my development experience consists of opening a terminal and typing `vi proj` or `v file`
 if I've ever used one of the project or the file. It's super handy, try it by yourself!
 
-# References
-- https://github.com/rupa/z
-- https://github.com/rupa/v
-- https://github.com/wting/autojump
-- https://github.com/clvv/fasd
-- https://github.com/ajeetdsouza/zoxide
