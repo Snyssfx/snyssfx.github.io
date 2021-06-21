@@ -105,6 +105,10 @@ To sum up the review, you should choose between `fasd` and `zoxide`, since they 
 
 As for me, `fasd` incorporates all `z`, `v` and `autojump` features, while `zoxide` 
 cannot allow me to access files which is crucial for a vim user.  
+
+Users that don't often access files in the terminal could add `alias cd='zoxide'` in the `.zshrc` and 
+play with the program for some time.  
+
 Now I'm going to share my configuration that integrates [neo]vim and fasd more closely:  
 
 First I want to use 'comma' functionality that auto completes fasd-cached files 
