@@ -33,10 +33,13 @@ Next I will tell you about the differences and features of each one.
 ---
 
 ### z
-With `z`, you can `cd` into a directory by typing only a part of the path. You can use it to enter directories you are often used.  
+With `z`, you can `cd` into a directory by typing only a part of the path. 
+You can use it to enter directories you are often used.
+Before that you should enter some directories as usual and wait until `z` adds them to a local database.  
 
 `z` holds a cache of directories you've visited based on 'frecency': it's a combined metric 
-of frequency and recency of accessing a directory.  
+of frequency and recency of accessing a directory. 
+The metric was initially developed by Mozilla, you can check details [here](http://devdoc.net/web/developer.mozilla.org/en-US/en/The_Places_frecency_algorithm.html).  
 Examples:
 ```bash
 z foo     # cd to most frecent dir matching foo
