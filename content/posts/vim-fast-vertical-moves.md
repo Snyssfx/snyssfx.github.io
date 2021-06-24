@@ -29,3 +29,7 @@ since you don't have to jump twice.
 
 I wonder if such a command exists for go-to-definition of 1 variable for LSP, like the great `:tag /part_of_tag`.
 Do you know any?
+
+UPD: you can search through LSP document symbols, 
+for example with the plugin like [telescope.nvim](https://github.com/nvim-telescope/telescope.nvim/issues).  
+Use a command `:Telescope lsp_document_symbols`
